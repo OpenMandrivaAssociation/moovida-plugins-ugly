@@ -24,7 +24,7 @@
 
 Summary:	'Ugly' plugins for the Moovida media center
 Name:		moovida-plugins-ugly
-Version:	1.0.1
+Version:	1.0.2
 Release:	%{release}
 Source0:	http://www.moovida.com/media/public/%{distname}
 # From https://elisa.fluendo.com/quality/review/request/%3C20081106174059.32406.qmail@kantoor2.datux.nl%3E

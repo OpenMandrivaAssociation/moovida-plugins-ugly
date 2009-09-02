@@ -2,7 +2,7 @@
 
 %define oname	elisa-plugins-ugly
 
-%define rel	1
+%define rel	2
 
 %define svn	0
 %define pre	0
@@ -27,9 +27,9 @@ Name:		moovida-plugins-ugly
 Version:	1.0.6
 Release:	%{release}
 Source0:	http://www.moovida.com/media/public/%{distname}
-# From https://elisa.fluendo.com/quality/review/request/%3C20081106174059.32406.qmail@kantoor2.datux.nl%3E
-# Repeat signal detection for LIRC plugin - AdamW 2008/11
-Patch0:		elisa-plugins-ugly-0.5.19-lirc_repeat.patch
+# From http://launchpadlibrarian.net/27310700/lirc_input.py.patch
+# Improve repeat detection in LIRC - see bug 264113 - AdamW 2009/09
+Patch0:		lirc_input.py.patch
 License:	GPLv3 and MIT
 Group:		Development/Python
 URL:		http://www.moovida.com
@@ -56,7 +56,7 @@ solution. This package contains 'ugly' plugins for Moovida.
 
 %prep
 %setup -q -n %{dirname}
-#patch0 -p1 -b .repeat
+%patch0 -p1 -b .repeat
 
 %build
 

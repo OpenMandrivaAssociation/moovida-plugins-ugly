@@ -2,7 +2,7 @@
 
 %define oname	elisa-plugins-ugly
 
-%define rel	2
+%define rel	1
 
 %define svn	0
 %define pre	0
@@ -24,7 +24,7 @@
 
 Summary:	'Ugly' plugins for the Moovida media center
 Name:		moovida-plugins-ugly
-Version:	1.0.6
+Version:	1.0.7
 Release:	%{release}
 Source0:	http://www.moovida.com/media/public/%{distname}
 # From http://launchpadlibrarian.net/27310700/lirc_input.py.patch

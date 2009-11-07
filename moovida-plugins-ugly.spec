@@ -24,12 +24,9 @@
 
 Summary:	'Ugly' plugins for the Moovida media center
 Name:		moovida-plugins-ugly
-Version:	1.0.7
+Version:	1.0.8
 Release:	%{release}
 Source0:	http://www.moovida.com/media/public/%{distname}
-# From http://launchpadlibrarian.net/27310700/lirc_input.py.patch
-# Improve repeat detection in LIRC - see bug 264113 - AdamW 2009/09
-Patch0:		lirc_input.py.patch
 License:	GPLv3 and MIT
 Group:		Development/Python
 URL:		http://www.moovida.com
@@ -56,7 +53,6 @@ solution. This package contains 'ugly' plugins for Moovida.
 
 %prep
 %setup -q -n %{dirname}
-%patch0 -p1 -b .repeat
 
 %build
 

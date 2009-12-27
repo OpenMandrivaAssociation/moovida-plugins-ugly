@@ -24,7 +24,7 @@
 
 Summary:	'Ugly' plugins for the Moovida media center
 Name:		moovida-plugins-ugly
-Version:	1.0.8
+Version:	1.0.9
 Release:	%{release}
 Source0:	http://www.moovida.com/media/public/%{distname}
 License:	GPLv3 and MIT

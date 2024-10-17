@@ -9,7 +9,7 @@ Release:	3
 Source0:	http://www.moovida.com/media/public/%{name}-%{version}.tar.gz
 License:	GPLv3 and MIT
 Group:		Development/Python
-URL:		http://www.moovida.com
+URL:		https://www.moovida.com
 BuildArch:	noarch
 BuildRequires:	python
 BuildRequires:	python-setuptools
